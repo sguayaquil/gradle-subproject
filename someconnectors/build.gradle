@@ -6,8 +6,8 @@ repositories {
 }
 
 dependencies {
-  compile project(':')
-  compile "org.apache.hadoop:hadoop-core:${hadoopVersion}"
+  //compile project(':')
+  implementation "org.apache.hadoop:hadoop-core:${hadoopVersion}"
 }
 
 
